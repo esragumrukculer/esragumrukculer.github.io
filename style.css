@@ -1,152 +1,242 @@
-html {
-    background-color: #d8d8d4;
-    color: black;
-    overflow: scroll;
+* {
+  box-sizing: border-box;
 }
+
+html,
 body {
-    background-color: #b9f5ec;
-    width: 1100px;
-    margin: 0 auto;
-    font: 14px/1.4em 'Courier', serif;
-     text-align: center;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  padding-top: 30px;
 }
-header {
-    background-color: #89e4d8;
-    color: #1d1b1c;
-    padding: 200px;
-    font-variant: small-caps;
-    font-family: 'Courier', sans-serif;
-    font-size: 2.5rem;
-    text-align: center;
-    letter-spacing: .15em;
-}
-nav {
-    background-color: #060606;
-    color: #FFFF8E;
-    padding: 20px 10px;
-    text-align: center;
-    font-family: 'Courier';
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-nav li {
-    display: inline;
-    margin-right: 6px;
-    margin-left: 40px;
-    text-align: left;
-    margin-left: 50px;
 
+#container {
+    width: 600px;
+    height: 500px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    background-color: #85d685;
+    position: relative;
 }
-nav a {
-    color: white;
+
+
+
+ #alpaca-body{
+    position: absolute;
+    display: block;
+    width: 260px;
+    height: 150px;
+    background-color: #ebefd6;
+    border-radius: 50% 50% 50% 50% / 60% 70% 90% 90%;
+    z-index: 5;
+    bottom: 130px;
+    left: 190px;
+}
+
+#alpaca-body:hover {
+ background-color: pink;
+ transform: rotateX(180deg);
+ transition: all 3s;
+ transition-timing-function:ease;
+  }
+
+
+#alpaca-leg1 {
+   position: absolute;
+    width: 50px;
+    height: 120px;
+    background: #f9f9e9;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 50px / 50px;
+    z-index: 5;
+    bottom: 45px;
+    left: 210px;
+}
+
+#alpaca-leg2 {
+       position: absolute;
+    width: 50px;
+    height: 120px;
+    background: #f1f1e5;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 50px / 50px;
+    z-index: 5;
+    bottom: 40px;
+    left: 220px;
+}
+
+#alpaca-leg3 {
+      position: absolute;
+    width: 50px;
+    height: 120px;
+    background: #f9f9e9;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 50px / 50px;
+    z-index: 5;
+    bottom: 45px;
+    left: 360px;
+}
+
+#alpaca-leg4 {
+   position: absolute;
+    width: 50px;
+    height: 120px;
+    background: #f1f1e5;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 50px / 50px;
+    z-index: 5;
+    bottom: 40px;
+    left: 370px;
+}
+#alpaca-neck {
+        position: absolute;
+    width: 50px;
+    height: 150px;
+    background: #f1f1e5;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 50px / 50px;
+    z-index: 5;
+    bottom: 240px;
+    left: 180px;
+}
+
+
+#alpaca-face {
+ position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100;
+    z-index: 5;
+    bottom: 330px;
+    left: 140px;
+    background-color: #fbfbf2;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+#alpaca-eye1  {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+  z-index: 5;
+  bottom: 385px;
+  left: 150px;
+  background-color: black;
+}
+
+#alpaca-eye2 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+  z-index: 5;
+  bottom: 385px;
+  left: 160px;
+  background-color: black;
+}
+
+#alpaca-ear1 {
+    position: absolute;
+    width: 25px;
+    height: 50px;
+    border-radius: 100;
+    z-index: 5;
+    bottom: 400px;
+    left: 145px;
+    background-color: #f9f9f1;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+#alpaca-earin1 {
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    border-radius: 100;
+    z-index: 5;
+    bottom: 410px;
+    left: 148px;
+    background-color: #ded4d6;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+
+#alpaca-ear2 {
+    position: absolute;
+    width: 25px;
+    height: 50px;
+    border-radius: 100;
+    z-index: 5;
+    bottom: 400px;
+    left: 175px;
+    background-color: #f9f9f1;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+#alpaca-earin2 {
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    border-radius: 100;
+    z-index: 5;
+    bottom: 410px;
+    left: 178px;
+    background-color: #ded4d6;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+#alpaca-nose {
+       position: absolute;
+    display: block;
+    width: 35px;
+    height: 40px;
+    background-color: #fffdf5;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 80% 30% 30% 80% / 50% 50% 50% 50%;
  
-
-}
-nav a:hover {
-    color: #8f96ef;
-    font-size: 110%;
-   
-}
-main {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-h2, h3, h4 {
-    color: #42559a;
-     text-align: left;
-     margin-left: 50px;
-}
-h1 {
-    color: #000;
-    text-align: left;
-    font: 180% 'Courier', sans-serif;
-    font-weight: bold;
-    margin-left: 50px;
-}
-
-h5 {
-    display: block;
-    font-size: 7em;
-    -webkit-margin-before: 1.67em;
-    -webkit-margin-after: 1.67em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
-}
-
-h6 {  
-    text-align: left;
-    display: block;
-    font-size: 4em;
-    -webkit-margin-before: 1.67em;
-    -webkit-margin-after: 1.67em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
-    margin-left: 50px;
-}
-}
-h2, h3, h4 {
-        color: #42559a;
-    text-align: left;
-        display: block;
-    font-size: 1.5em;
-    -webkit-margin-before: 0.83em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
-    font: 100% 'Courier', sans-serif;;
-    margin-left: 100px;
-}
-
-p {
-    text-align: left;
-    margin-right: 300px;
-    margin-left: 50px;
-}
-
-ol {
-    text-align: left;
-}
-
-a {
-    color: #000;
-    text-align: left;
-    font: 75% 'Courier', sans-serif;
-    font-weight: bold;
+     bottom: 13px;
+    left: -15px
 }
 
 
-footer {
-    background-color: #aba9a9;
-    color: white;
-    padding: 10px;
-    text-align: center;
+#alpaca-noseblack {
+     position: absolute;
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 0% 90% 90% 00% / 0% 100% 10% 50%;
+    z-index: 5;
+    bottom: 30px;
+    left: -6px;
+    background-color: black;
 }
 
-figure img {
-    width: 160px;
-    height: 220px;
-}
-figcaption {
-    font-size: .9em;
-    font-style: italic;
-    text-align: center;
-}
-.container {
-    width: 800px;
-    margin: 10px;
-}
-.image {
-  float: left;
-  margin: 1px;
-}
+.ear:hover {
+ -webkit-transform: translateY(-7px);
+    -ms-transform: translateY(-7px);
+    transform: translateY(-7px);
+ }
+
+ .eye:active {
+
+-webkit-transform: scale(2.3);
+        -ms-transform: scale(2.3); 
+        transform: scale(2.3); 
+ }
 
 
+ #alpaca-face:hover #alpaca-nose {
 
+background-color: #b59ba4;
+
+ }
+
+
+ #container:hover #alpaca-face {
+  background-color: #f9d9fb;
+
+ }
 
