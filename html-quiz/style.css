@@ -1,0 +1,18 @@
+
+
+.rock { 
+    text-decoration-color: blue;
+    
+}
+
+.pop { 
+    text-decoration-color: red;
+}
+
+.jazz { 
+    text-decoration-color: green;
+}
+
+p { 
+    text-align: center;
+}
