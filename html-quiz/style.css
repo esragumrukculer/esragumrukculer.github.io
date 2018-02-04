@@ -1,22 +1,19 @@
 
 
 .rock { 
-    text-decoration-color: blue;
+    color: blue;
     
 }
 
 .pop { 
-    text-decoration-color: red;
+    color: red;
 }
 
 .jazz { 
-    text-decoration-color: green;
+    color: green;
 }
 
 
 
 
 
-p { 
-    text-align: center;
-}

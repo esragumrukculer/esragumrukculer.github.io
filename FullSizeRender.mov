@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Yogurt</title>
+  <style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+    /* I love yogurt */
+  </style>
+</head>
+<body>
+
+<h1>My Craving for Yogurt!</h1> 
+
+  <p>Being from Turkey, where yogurts are a part of every single meal, I sometimes naturally crave yogurt! Yesterday was one of those days.</p>
+  <br/>
+  <br/>
+  <p>So I first started by complaining in my room. My roommate didn't get my feelings. Because apperantly yogurt is not like chocolate and it is usually not craved. However my suitmate did, she loves yogurt! We thought about the places we could go for yogurt and these came up to our mind.</p>
+
+
+
+<ol>
+  <li>Chobani Store in Soho</li>
+  <li>Pink Berry</li>
+  <li>CVS</li>
+</ol>
+
+
+  <a href="page2.html">Do You Want To Know Where We Went?</a>
+</body>
+</html>
