@@ -1,0 +1,275 @@
+
+
+body { 
+  background-color: black;
+  font-family: 'Helvetica', serif;
+}
+
+
+h1 {
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Helvetica', serif;
+}
+
+h2 {
+    color: red;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Helvetica', serif;
+}
+
+h3 {
+    color: white;
+    font-size: 90px;
+    text-align: left;
+    font-family: 'Helvetica', serif;
+    padding-left: 80px;
+}
+
+h4 {
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Helvetica', serif;
+    padding-left: 80px;
+}
+
+
+
+
+a {
+    color: darkgrey;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 12pt;
+}
+
+
+
+
+.underlined2{
+    color: darkgrey;
+    cursor: pointer;
+    text-decoration: none;
+    position: fixed!important;
+    left: 80px;
+    margin-left: -45.33px!important;
+}
+
+.zoom-in h1,h2 {
+  font-family: 'Anton', sans-serif;
+  transform: scale(2);
+  animation: zoom-in 5s ease;
+  animation-timing-function: cubic-bezier(.05,0,0,.98);
+}
+
+@keyframes zoom-in {
+  from {
+    opacity: 0;
+  transform: scale(10);
+  transition: all 0.3s ease-in-out 0.2s;
+  }
+  to {
+    opacity: 1;
+  transform: scale(2);
+  transition: all 0.3s ease-in-out 0.1s;
+  }
+}
+
+
+.slide {
+  transform: translateX(-2000px);
+  /*animation-delay: slide-away 2.5s;*/
+  animation: slide-away 7s ease;
+  animation-timing-function: cubic-bezier(.62,.02,.51,1);
+}
+
+@keyframes slide-away {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-2000px);
+  }
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+}
+
+
+main {
+   
+}
+
+
+/* circle links*/
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+.previous {
+    background-color: white;
+    color: grey;
+}
+
+.next {
+    background-color: white;
+    color: grey;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+  /* The sidebar menu */
+.sidenavright {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 60px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 50%;
+    margin-top: -17px;
+    left: 20;
+    background-color: black; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The sidebar menu */
+.sidenavleft {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 60px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 50%;
+    margin-top: -17px;
+    right: 0;
+    background-color: black; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+
+/* neon writing */
+:root {
+  font-size: 24px;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 60px #d4bc12,
+    0 0 90px #ffd400,
+    0 0 100px #fbff00,
+    0 0 200px #ffd400,
+    0 0 250px #fbff00;
+    transform: scale(1.65);
+  animation: zoom-out 5s ease;
+}
+
+@keyframes zoom-out {
+  from {
+    transform: scale(1.0);
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #d4bc12,
+    0 0 80px #ffd400,
+    0 0 90px #fbff00,
+    0 0 100px #ffd400,
+    0 0 150px #fbff00;
+  }
+  to {
+    text-shadow:
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 60px #d4bc12,
+    0 0 90px #ffd400,
+    0 0 100px #fbff00,
+    0 0 200px #ffd400,
+    0 0 250px #fbff00;
+    transform: scale(1.65);
+  }
+}
+
+
+/* typewritter */
+.typewriter h1 {
+  color: #fff;
+  font-family: 'Nanum Gothic Coding', monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+.fade h1 { 
+  font-family: 'Source Serif Pro', serif;
+  transform: scale(0);
+  transform; opacity: 0;
+  animation: fade 20s forwards;
+  animation-timing-function: cubic-bezier(.05,0,0,.98);
+}
+
+@keyframes fade {
+  from { 
+    opacity: 1;
+  transform: scale(1.2);
+    
+  }
+  to {
+    opacity: 0;
+  transform: scale(0);
+   
+  }
+}
+
+
