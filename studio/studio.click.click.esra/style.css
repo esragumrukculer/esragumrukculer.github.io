@@ -15,14 +15,14 @@ h1 {
 
 h2 {
     color: red;
-    font-size: 42px;
+    font-size: 40px;
     text-align: center;
     font-family: 'Helvetica', serif;
 }
 
 h3 {
     color: white;
-    font-size: 90px;
+    font-size: 80px;
     text-align: left;
     font-family: 'Helvetica', serif;
     padding-left: 80px;
@@ -30,10 +30,12 @@ h3 {
 
 h4 {
     color: white;
-    font-size: 60px;
+    font-size: 30px;
     text-align: left;
     font-family: 'Helvetica', serif;
+    font-weight: 200;
     padding-left: 80px;
+
 }
 
 
@@ -44,8 +46,41 @@ a {
     cursor: pointer;
     text-decoration: underline;
     font-size: 12pt;
+    text-align: center;
 }
 
+
+/* circle links*/
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+.previous  {
+    background-color: darkgrey;
+    opacity: 0.6;
+    color: black;
+    margin-left: 23px!important;
+
+   }
+
+
+.next {
+    background-color: darkgrey;
+    opacity: 0.6;
+    color: black;
+   }
+
+.round {
+    border-radius: 20%;
+}
 
 
 
@@ -58,10 +93,11 @@ a {
     margin-left: -45.33px!important;
 }
 
+
+
 .zoom-in h1,h2 {
-  font-family: 'Anton', sans-serif;
   transform: scale(2);
-  animation: zoom-in 5s ease;
+  animation: zoom-in 2s ease;
   animation-timing-function: cubic-bezier(.05,0,0,.98);
 }
 
@@ -110,37 +146,44 @@ main {
    
 }
 
-
-/* circle links*/
-
-a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
+.neon2 {
+  color: #fff;
+  text-shadow:
+  color: #fff;
+  text-shadow:
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 60px #d4bc12,
+    0 0 90px #ffd400,
+    0 0 100px #fbff00,
+    0 0 200px #ffd400,
+    0 0 250px #fbff00;
+    transform: scale(1.65);
+  animation: zoom-out 7s ease;
 }
 
-a:hover {
-    background-color: white;
-    color: black;
+@keyframes zoom-out {
+  from {
+    transform: scale(1.0);
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 100px #ffd400,
+    0 0 150px #fbff00;
+    transform: translateX(0);
+  }
+  to {
+    text-shadow:
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 200px #ffd400,
+    0 0 250px #fbff00;
+    transform: translateX(-2000px);
+  }
 }
-
-.previous {
-    background-color: white;
-    color: grey;
-}
-
-.next {
-    background-color: white;
-    color: grey;
-}
-
-.round {
-    border-radius: 50%;
-}
-
-
-
-
 
 
   /* The sidebar menu */
@@ -152,7 +195,6 @@ a:hover {
     top: 50%;
     margin-top: -17px;
     left: 20;
-    background-color: black; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
 }
@@ -166,7 +208,6 @@ a:hover {
     top: 50%;
     margin-top: -17px;
     right: 0;
-    background-color: black; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
 }
@@ -229,7 +270,6 @@ h1 {
 /* typewritter */
 .typewriter h1 {
   color: #fff;
-  font-family: 'Nanum Gothic Coding', monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
