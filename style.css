@@ -1,25 +1,25 @@
 
 
 body { 
-  background-color: #white;
+  background-color: #ecb3b3;
   padding-top: 40px;
   padding-left: 100px;
   padding-right: 100px;
-  font-family: 'helvetica', sans-serif;
+  font-family: 'Lato', sans-serif;
 
 
 }
 
 
 h1 {
-    color: #black;
+    color: #e2d6d8;
     font-size: 26
 
 }
 
 
 h2 { 
-    color: #black;
+    color: #ca8d97;
     font-size: 20px;
 }
 
@@ -30,13 +30,13 @@ p {
 }
 
 link {
-    color: #darkblue;
+    color: #58052f;
     font-size: 16px;
 
 }
 
 a {
-    color: #darkblue;
+    color: #58052f;
     cursor: pointer;
     text-decoration: bold;
 }
@@ -49,20 +49,20 @@ img {
 
 
 footer {
-    background-color: #gray;
+    background-color: #b5506c;
     color: white;
     padding: 10px;
     text-align: center;
 }
 
 header {
-    background-color: #gray;
+    background-color: #b5506c;
     color: white;
     padding: 10px;
     text-align: center;
 }
 main {
-    background-color: #lightgray;
+    background-color: #e2caca;
     color: black;
     padding: 10px;
 }
