@@ -1,0 +1,201 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.book-top {
+  width: 16%;
+  height: 6%;
+  background: white;
+    border-color: orange;
+    border-style: solid;
+    border-width: 3px 1px 3px 6px;
+  position:absolute;
+  margin-left: 30%;
+  bottom: 20%;
+
+
+}
+
+
+
+
+.book-middle {
+  position:absolute;
+  width: 30%;
+  height: 10%;
+  background: #2bc3aa;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 0px 0px 0px 15px;
+  margin-left: 30%;
+  bottom: 12%;
+}
+
+.middletitle {
+  position:absolute;
+  top: 32%;
+  left:10%;
+  color: w;
+
+}
+
+
+.book-bottom {
+  position:absolute;
+  width: 25%;
+  height: 2%;
+  background: white;
+      border-color: grey;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+  margin-left: 35%;
+  bottom: 10%;
+}
+
+
+
+.vase {
+   position:absolute;
+   display:block;
+   width: 12%;
+   height: 18%;
+   background-color: #efeaea;
+   -webkit-border-radius: 63% 63% 63% 63% / 108% 108% 72% 72%;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+    margin-left: 33%;
+    bottom: 25%;
+}
+
+
+.flower {
+  color: transparent;
+  position: absolute;
+  margin-left: 33%;
+  bottom: 42%;
+  width: 10%;
+  height: 10%;
+}
+
+.padle1 {
+    position: absolute;
+    display: block;
+    color: pink;
+    width: 80%;
+    height: 15%;
+    background-color: pink;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin-left: 50%;
+    bottom: 90%;
+}
+
+.padle2 {
+    position: absolute;
+    display: block;
+    color: pink;
+    width: 80%;
+    height: 15%;
+    background-color: pink;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin-left: 50%;
+    bottom: 90%;
+    transform: rotate(30deg);
+}
+
+.padle3 {
+    position: absolute;
+    display: block;
+    color: pink;
+    width: 80%;
+    height: 15%;
+    background-color: pink;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin-left: 50%;
+    bottom: 90%;
+    transform: rotate(60deg);
+}
+
+.padle4 {
+    position: absolute;
+    display: block;
+    color: pink;
+    width: 80%;
+    height: 15%;
+    background-color: pink;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin-left: 50%;
+    bottom: 90%;
+    transform: rotate(90deg);
+}
+
+.padle5 {
+    position: absolute;
+    display: block;
+    color: pink;
+    width: 80%;
+    height: 15%;
+    background-color: pink;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin-left: 50%;
+    bottom: 90%;
+    transform: rotate(120deg);
+}
+
+.padle6 {
+    position: absolute;
+    display: block;
+    color: pink;
+    width: 80%;
+    height: 15%;
+    background-color: pink;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin-left: 50%;
+    bottom: 90%;
+    transform: rotate(150deg);
+}
+
+.sap {
+    position: absolute;
+    display: block;
+    color: green;
+    width: 60%;
+    height: 8%;
+    background-color: green;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin-left: 50%;
+    bottom: 50%;
+    transform: rotate(120deg);
+}
+
+.table {
+    position: absolute;
+    border-bottom: 30vw solid #d4f0f9;
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent;
+    height: 0%;
+    width: 30%;
+    margin-left: 25%;
+    bottom: 0%;
+
+}
+
+transform: rotate(45deg);
+
