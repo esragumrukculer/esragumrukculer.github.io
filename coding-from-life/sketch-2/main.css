@@ -14,7 +14,7 @@ body {
 .frame {
   width: 95vw;
   height: 57vw;
-  background: white;
+  background: linear-gradient(#6f6f6f, white );
   margin: 2.5vw auto;
   position: relative;
 }
@@ -24,7 +24,7 @@ body {
 .book-top {
   width: 16%;
   height: 6%;
-  background: white;
+  background: linear-gradient(#f1f3dc, white, #f1f3dc );
     border-color: orange;
     border-style: solid;
     border-width: 3px 1px 3px 6px;
@@ -42,7 +42,7 @@ body {
   position:absolute;
   width: 30%;
   height: 10%;
-  background: #2bc3aa;
+  background: linear-gradient(#4e8e83, #2bc3aa, #4e8e83 );
     border-color: lightgrey;
     border-style: solid;
     border-width: 0px 0px 0px 15px;
@@ -54,7 +54,7 @@ body {
   position:absolute;
   top: 32%;
   left:10%;
-  color: w;
+  color: white;
 
 }
 
@@ -63,8 +63,8 @@ body {
   position:absolute;
   width: 25%;
   height: 2%;
-  background: white;
-      border-color: grey;
+  background: linear-gradient(lightgrey, white, lightgrey);
+    border-color: grey;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
   margin-left: 35%;
@@ -187,7 +187,7 @@ body {
 
 .table {
     position: absolute;
-    border-bottom: 30vw solid #d4f0f9;
+    border-bottom: 23vw solid #d4f0f9 ;
     border-left: 5vw solid transparent;
     border-right: 5vw solid transparent;
     height: 0%;
@@ -196,6 +196,88 @@ body {
     bottom: 0%;
 
 }
+
+.cat1 {
+  position: absolute;
+   width: 8%;
+   height: 16%;
+  background: radial-gradient(white, #f3f2e0);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 48%;
+  bottom: 20%;
+     border-color: #f3f2e0;
+    border-style: solid;
+    border-width: 3px 1px 1px 5px;
+}
+.cat2 {
+  position: absolute;
+   width: 6%;
+   height: 10%;
+  background: radial-gradient(white, #f3f2e0);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 49%;
+  bottom: 34%;
+     border-color: #f3f2e0;
+    border-style: solid;
+    border-width: 3px 1px 1px 5px;
+}
+}
+
+.book {
+    position: absolute;
+    width: 14%;
+    height: 30%;
+    background: linear-gradient(#3e4498, blue, #000000 );
+    border-color: black;
+    border-style: solid;
+    border-width: 3px 3px 1px 3px;
+    margin-left: 32%;
+    bottom: 22%;
+}
+.book2 {
+    position: absolute;
+    width: 14%;
+    height: 30%;
+    background: linear-gradient(#3e4498, blue, #000000 );
+    border-color: black;
+    border-style: solid;
+    border-width: 3px 3px 1px 3px;
+    margin-left: 32%;
+    bottom: 22%;
+    transform: rotate(358deg);
+}
+.book3 {
+    position: absolute;
+    width: 14%;
+    height: 30%;
+    background: linear-gradient(#3e4498, blue, #000000 );
+    border-color: black;
+    border-style: solid;
+    border-width: 3px 3px 1px 3px;
+    margin-left: 32%;
+    bottom: 22%;
+    transform: rotate(355deg);
+}
+.bottle {
+  position: absolute;
+   width: 15%;
+   height: 9%;
+  background: radial-gradient(#f3f2e0, violet, darkviolet);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 49%;
+  bottom: 4%;
+  transform: rotate(355deg);
+      border-color: darkviolet;
+    border-style: solid;
+    border-width: 3px 1px 1px 5px;
+}
+
 
 transform: rotate(45deg);
 
