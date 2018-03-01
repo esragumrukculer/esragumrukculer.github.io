@@ -1,0 +1,41 @@
+
+/* Your styles go here */
+ body {
+ 	  font-family: 'Helvetica', serif;
+ 	  margin: 20px;
+ }
+
+
+p {
+    color: black;
+    font-size: 24px;
+    text-align: left;
+    font-family: 'Helvetica', serif;
+}
+
+
+.info {
+    color: black;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Courier', serif;
+}
+
+.type {
+	
+	border: 1px solid black;
+	margin: 25px;
+	padding: 10px;
+
+}
+
+
+@media (max-width: 400px) {
+  .type {
+    
+ margin: 10px;
+ padding: 10px;
+
+
+  }
+}
