@@ -1,0 +1,108 @@
+
+
+body { 
+  background-color: #f2f2f2;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; 
+   font-weight: 100;
+  position:absolute;
+
+
+}
+
+hr.thin {
+height: 1px;
+border: 0;
+color: #333;
+background-color: #333;
+width: 100%;
+} 
+
+h1 {
+    color: #1d076f;
+    font-size: 40px;
+    text-align:left;
+    font-family: 'Abel', sans-serif;
+    font-style: bold;
+
+
+
+}
+
+
+h2 { 
+    color: black;
+    font-size: 40px;
+
+
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    text-decoration-style: none;
+    padding-right: 250px;
+    font-family: 'Abel', sans-serif;
+    
+
+}
+
+link {
+    color: #6d7cd0;
+    font-size: 16px;
+
+}
+
+a {
+    color: white;
+    font-size: 40px;
+    text-align:left;
+    font-family: 'Abel', sans-serif;
+    font-style: bold;
+}
+
+.images {
+    width: 100%;
+    height: auto;
+    position: center;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+.titleimage {
+    width: 100%;
+    height: auto;
+    position: center;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+
+
+.videos {
+    width: 100%;
+    height: auto;
+    -webkit-align-content: center;
+    align-content: center;position: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    text-align: center;
+}
+
+header {
+    background-color: #f2f2f2;
+    color: white;
+    padding: 7px;
+    text-align: center;
+}
+main {
+    background-color: #f2f2f2;
+    color: black;
+    padding: 10px;
+}

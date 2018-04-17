@@ -7,7 +7,7 @@ body {
 .frame {
   width: 85vw;
   height: 45vw;
-  background: lightpink;
+  background: #b1ccd6b8;
   margin: 2vw auto;
   position: relative;
   position: center;
@@ -20,7 +20,7 @@ body {
   background: white;
   margin:  auto;
   position: relative;
-  position: center;
+  position: left;
 
 }
 
@@ -77,20 +77,40 @@ p {
   font-size: 2vw;
   margin-top:-1vw;
 }
+a{
+  color: black;
+  text-align: left;
+  font-family: 'Helvetica', serif;
+  font-size: 2vw;
+  margin-top:-1vw;
+}
 
 h1 {
   color: black;
   font-family: 'Helvetica', serif;
   font-size:3.5vw;
   margin-top:4vw;
+  margin-bottom: 2vw;
+  width: 85vw;
+  height: 6vh;
+  background: white;
+  margin:  auto;
+  position: relative;
+  position: center;
+
+}
+
+h2 {
+  color: black;
+  font-family: 'Helvetica', serif;
+  font-size:2.4vw;
+  margin-top:4vw;
 }
 
 
 
-
-
 img {
-    height: 30vw;
+    height: 34vw;
     position: absolute;
 
 }
