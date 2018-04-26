@@ -1,0 +1,25 @@
+iframe {
+  width: 50%;
+  height: 50%;
+  position: fixed;
+}
+
+.map1 {
+  top: 0;
+  left: 0;
+}
+
+.map2 {
+  top: 0;
+  right: 0;
+}
+
+.map3 {
+  bottom: 0;
+  left: 0;
+}
+
+.map4 {
+  bottom: 0;
+  right: 0;
+}/* Your styles go here */
